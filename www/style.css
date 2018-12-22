@@ -1,3 +1,44 @@
 body {
-    background-color: aqua;
+    background-color: whitesmoke;
+}
+
+.header {
+    margin-left: 20%;
+}
+
+.blackBrick {
+    background-color: black;
+    width: 35px;
+    height: 35px;
+    margin-top: 7.5px;
+    margin-left: 7.5px;
+    border-radius: 17.5px;
+}
+
+.whiteBrick {
+    background-color:white;
+    width: 35px;
+    height: 35px;
+    margin-top: 7.5px;
+    margin-left: 7.5px;
+    border-radius: 17.5px;
+}
+
+.board {
+    width: 416px;
+    height: 416px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.boardRow {
+    display: block;
+}
+
+.square {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #999;
+    background-color: green; 
 }
